@@ -1,25 +1,10 @@
-### `README.md` (raiz do repositório)
-```md
-# 📚 Sistema de Biblioteca 
+# Projeto Gestão
 
 
-Este é um sistema de gerenciamento de biblioteca orientado a objetos.
+Sistema para gerenciar projetos, equipes, tarefas e alocações.
 
 
-## 👥 Usuários
-- **Administradores**: cadastro de livros, usuários, empréstimos e relatórios.
-- **Leitores**: pesquisa, reservas e acompanhamento de empréstimos.
-
-
-
-## 📖 Documentação
-Acesse a [documentação completa](./docs/index.md).
-
-
-
-## 🛠️ Execução local
-Veja instruções em [docs/run.md](./docs/run.md).
-
-
-## 📄 Licença
-MIT
+## Como usar
+1. Backend: `cd src-backend` → `npm install` → configurar `DATABASE_URL` → `npx prisma migrate dev --name init` → `npm run dev`
+2. Frontend: `cd src-frontend` → `npm install` → `npm run dev`
+3. Docs: editar `docs/*.md` e publicar via GitHub Pages (Settings → Pages → Branch: main, Folder: /docs)
