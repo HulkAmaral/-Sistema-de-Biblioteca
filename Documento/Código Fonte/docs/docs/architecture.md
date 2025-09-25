@@ -1,7 +1,5 @@
 # Arquitetura do Sistema
 
-Prefixo base: `/architecture/v1`
-
 ## Camadas
 - **Frontend (React SPA)** → interface web.
 - **Backend (Node/Java)** → API REST.
